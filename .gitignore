@@ -48,3 +48,15 @@ gmon.out
 # Vim backup files
 *.swp
 
+# But not these files...
+!2D_drop_rising.png
+!2D_shanchen_drop.png
+!2D_von_karman_vortex.png
+!3D_flow_over_sphere.png
+!3D_porous.png
+!3D_shanchen_drop.png
+!3D_T_junction.png
+!VTKFortran-1.1.0.zip
+!3D_porous_250x250x4.dat
+
+
