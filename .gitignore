@@ -1,0 +1,50 @@
+# compile folders
+/Debug/
+/Release/
+
+# VTK files
+*.vtk
+*.vtu
+*.vtp
+*.vtr
+*.vts
+*.vti
+
+# Output reports
+*.rep
+
+# Backup files
+*.bak
+
+# Packages
+*.7z
+*.gz
+*.zip
+*.tar
+
+# Logs
+*.log
+
+# Profiler files 
+/oprofile_data/
+perf.data
+gmon.out
+
+# Data files
+*.dat
+
+# Images and Movies
+*.png
+*.gif
+*.bmp
+*.avi
+*.mov
+*.mp4
+*.wmv
+
+# Gnuplot configuration file
+*.cfg
+
+# Vim backup files
+*.swp
+
