@@ -1,5 +1,3 @@
-ListLBM
-
 ## 1	Introduction
 
 I have designed listLBM as a part of my PhD program to simulate multiphase flow in porous media. The code is written with object-oriented programming model provided by Fortran 2003 and 2008 standards. The main point of the code is the elimination of solid nodes which are not interacting with the fluid from calculations. The focused system is a 3D/2D sparse matrix. The nodes are mapped on the mainlist (main vector) while knowing their neighbors. Therefore, the system is treated as an unstructured mesh.  The nodes which are experiencing the same type of collision are placed in the same sublist. Therefore, each sublist has a collision which should be initialized at the beginning of the code. The mainlist and sublists form a part which handles a lattice. For multicomponent simulations, multiple parts are defined. The code is written in a general way that it can handle D2Q9, D3Q15, D3Q19, and D3Q27 lattices with minimum changes. While the code has a great potential for parallelization, I haven’t done it yet. 
